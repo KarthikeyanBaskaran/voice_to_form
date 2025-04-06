@@ -1,0 +1,545 @@
+"""Primary Symptoms""","""Duration of Symptoms""","""Severity (Mild, Moderate, Severe)""","""Past Medical Conditions""","""Hospitalizations (reason and year)""","""Allergies""","""Current Medications (name, dosage, frequency)""","""Smoking (Yes/No, quantity per day)""","""Alcohol Consumption (Yes/No, frequency)""","""Exercise Routine (Yes/No, frequency)""","""Dietary Habits (Vegetarian, Non-Vegetarian, Vegan)""","""Sleep Pattern (Hours per day, quality of sleep)""","""Triggering Factors""",ID
+"""Dizziness"",","""Two months"",",""" "",","""Father suffered from heart issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Exertion (lifting heavy objects, climbing stairs)""",1
+"""Breaking out on cheeks and forehead, oily skin by midday"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,2
+"""Weakness, fatigue, shaky legs, lightheadedness"",","""A few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Enough sleep"",","""Standing up too quickly""",3
+"""Painful knot in shoulder blade, pain shooting to neck and down arm"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Long hours at a desk job, posture""",4
+"""Weakness, exhaustion upon waking"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Patient reports poor sleep quality"",",""" """,5
+"""Weak knee, knee giving way"",","""A few days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, regular running"",",""" "",",""" "",","""Being at the top of the stairs""",6
+"""Ear pain, fluid leaking from ear"",","""Started as a mild discomfort (unspecified duration)"",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Barely sleep"",",""" """,7
+"""Soreness all over the body"",","""Every morning"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Waking up, possible mattress""",8
+"""Sharp pain in stomach"",","""Months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Spicy or hot food""",9
+"""Sore throat, voice loss, difficulty swallowing, feeling of something stuck in throat"",",""" "",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,10
+"""Blurry vision, especially in dim lighting, difficulty seeing at night"",","""Lately"",",""" "",","""Father had glaucoma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Dim lighting, night driving""",11
+"""Frequent migraines, nausea, sensitivity to light"",","""Almost two days"",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Unspecified, but patient notes the migraines seem to be getting worse.""",12
+"""Sharp pain in shoulders and wrists"",","""Recently"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Working on the computer""",13
+"""Split on thumb that won’t heal, keeps reopening"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Dry hands""",14
+"""Hair falling out excessively"",","""past few months"",","""Becoming very noticeable"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Brushing hair""",15
+"""Constant sadness, difficulty focusing on work, loss of enjoyment in previously enjoyed activities"",","""Since breakup last year"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Breakup last year""",16
+"""Body aches, muscle fatigue, tiredness"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,17
+"""Dizziness, Loss of Balance"",","""A few seconds"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Moving too quickly (getting out of bed or standing up)""",18
+"""burning sensation along my back, chest tightness"",","""a few weeks"",","""getting worse"",","""asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""deep breaths""",19
+"""Feeling sad and unmotivated"",","""Constantly"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,20
+"""Sadness, lack of motivation, difficulty getting out of bed, loss of interest in enjoyable activities, trouble sleeping"",","""past few months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Trouble sleeping"",",""" """,21
+"""Head pain described as being hit with a hammer, throbbing, and located at the top of the head."",","""Past few days"",","""Intense"",",""" "",",""" "",",""" "",","""Painkillers (unspecified)"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Movement""",22
+"""Constant itching at the front and center of the scalp, redness, small flakes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Washing hair does not alleviate symptoms""",23
+"""Swollen and painful wrist"",",""" "",","""Moderate"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, playing basketball"",",""" "",",""" "",","""Playing basketball, taking a shot, and losing balance""",24
+"""Pain in my foot"",","""couple of weeks"",","""Mild discomfort...difficult to walk long distances"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Wearing heels""",25
+"""Sharp pain in the arm, arm feels weak"",","""Over a week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, intense workout"",",""" "",",""" "",","""Intense workout at the gym""",26
+"""Sharp pain in knee, popping sound in knee"",","""A few months"",","""Gradually worsened"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Climbing stairs, bending knee""",27
+"""Can’t take a deep breath, weight on chest"",","""Lately (unspecified)"",","""Mild"",","""Anxiety"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Night, mild physical activity""",28
+"""Fast heart beating, chest pain, lightheadedness"",","""More often"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress""",29
+"""Weakness, stiffness"",","""When I wake up in the morning"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Waking up in the morning""",30
+"""Cut leg, pain, redness"",",""" "",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stepping on broken glass""",31
+"""Stiff and painful neck, difficulty rotating neck to the right."",","""This morning (Implied as the symptoms started this morning)."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sleeping in a weird position.""",32
+"""Lower back pain"",","""Few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""No"",",""" "",",""" "",","""Standing for too long""",33
+"""Mood swings, irritability, exhaustion"",","""lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""hormonal changes or stress""",34
+"""Sharp pain in chest"",",""" "",",""" "",","""Heart disease (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, running long distances"",",""" "",",""" "",","""Running long distances""",35
+"""Pain in joints, struggle to grip objects"",","""few months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""mornings, cold weather""",36
+"""Painful pimples, oily skin, breakouts"",","""Recently"",",""" "",","""Acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress, diet changes""",37
+"""Emotionally overwhelmed, anxiety, feeling like crying"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,38
+"""Dizziness, feeling like falling down"",","""Over the past month"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Getting up from a sitting or lying position""",39
+"""Muscle pain"",","""Few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, increased workout intensity"",",""" "",",""" "",","""Increased workout intensity""",40
+"""Heart racing, prickly sensation in chest"",","""A few minutes"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,41
+"""Feeling sad, loss of interest in activities, sleep pattern issues, difficulty concentrating"",","""Months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""All over the place, not specified"",",""" """,42
+"""Headache, throbbing pain, pain on top of head"",",""" "",","""Intense"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Movement, bending down""",43
+"""Persistent itch at the front and center of scalp, dry and flaky skin, redness when scratching"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Scratching""",44
+"""Swollen and painful wrist"",","""Two days"",","""Moderate (implied by \""pain hasn’t improved much\"")"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes (playing basketball)"",",""" "",",""" "",","""Jumped to shoot while playing basketball, lost balance, and hit the ground hard""",45
+"""Pain in foot, specifically near the heel, and difficulty walking"",","""A few weeks"",","""Getting worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""First few steps in the morning""",46
+"""Bicep aching, pain, slight swelling"",","""Two days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, two days ago"",",""" "",",""" "",","""Gym session/lifting anything""",47
+"""Sharp pain in my knee"",","""About a month"",","""Gradually getting worse; knee feels like it might give out"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, often"",",""" "",",""" "",","""Climbing the stairs; putting weight on it""",48
+"""Shortness of breath"",","""Started two weeks ago"",",""" "",","""Occasional allergies"",",""" "",","""Occasional allergies"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Recovered from a mild flu""",49
+"""Chest pain, chest tightness, lightheadedness"",","""About a week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,50
+"""Weakness, shaky legs"",","""Has been getting worse (implied)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, tries to stay active (implied)"",","""Eats well (implied)"",",""" "",","""Getting out of bed""",51
+"""Cut leg, bleeding, pain"",","""Three days"",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stepped on broken glass""",52
+"""Stiff neck, neck pain, inability to rotate neck"",","""Since yesterday"",","""Much worse (implied from \""now the pain is much worse\"")"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Woke up with a stiff neck""",53
+"""Lower back pain"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""No, much"",",""" "",",""" "",","""Sitting for long hours""",54
+"""Emotionally unstable, irritability, unpredictable mood swings, anxiety"",","""Some time now"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,55
+"""Sharp pain in chest"",","""A few minutes"",",""" "",","""Father had a history of heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, long run last week"",",""" "",",""" "",","""Long run""",56
+"""Joint pain, stiffness"",","""Several months"",",""" "",","""Arthritis (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Worse in the mornings""",57
+"""Acne breakouts"",","""Since teenage years"",","""Severe (in teenage years), occasional breakouts (currently)"",","""Acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,58
+"""Feeling emotionally off, difficulty focusing, exhaustion, crying for no reason"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,59
+"""Dizziness and falling back down when getting up too quickly"",","""A few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Non-Vegetarian (implied by eating regularly)"",",""" "",","""Getting up too quickly""",60
+"""Bloating, abdominal discomfort, nausea, stomach noises"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Eating""",61
+"""Blurry vision, flashes of light"",",""" "",",""" "",","""Diabetes"",",""" "",",""" "",","""Glasses (prescription not specified)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,62
+"""Sore throat"",","""Almost every morning"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,63
+"""Tingling and numbness in hands"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Night""",64
+"""Stomach cramps, diarrhea"",","""Months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Dairy products""",65
+"""Pressure behind the eyes, constant headache"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Bending down or moving head suddenly""",66
+"""Headaches behind eyes, spreading to temples, nausea"",","""Mostly in the afternoon"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,67
+"""Exhaustion, lack of energy, lightheadedness"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""8 hours, quality not specified"",",""" """,68
+"""Shaking hands when holding something still"",","""Months"",","""Mild"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Holding something still""",69
+"""Gasping for air at night, loud snoring, pauses in breathing during sleep"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,70
+"""Weight loss, weakness, thirst"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,71
+"""Shoulder pain"",","""Last weekend"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Lifting arm, moving heavy furniture""",72
+"""Cramps"",","""Before and during period"",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,73
+"""dry, persistent cough"",","""weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,74
+"""Skin breakouts, hair thinning"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,75
+"""Heartburn, burning sensation in chest"",","""Almost every day"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Spicy food (mentioned as not a trigger)""",76
+"""Heavy and uncomfortable lower abdomen, bloating"",","""All the time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Before period""",77
+"""Dizziness when standing up quickly"",","""A few seconds"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up quickly""",78
+"""Lump in throat"",","""A few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Swallowing""",79
+"""Cold hands and feet"",","""long time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,80
+"""Ringing in ears"",","""past month"",","""Annoying"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,81
+"""Night sweats"",",""" "",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Cool room temperature""",82
+"""Weakness in hands, difficulty gripping things"",","""A few months"",","""Getting worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,83
+"""Tight pain in chest that spreads to arm"",","""Doesn’t happen all the time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,84
+"""A small lump under the skin on the neck"",","""Weeks"",","""Not painful"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,85
+"""Lower back pain"",","""Few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sitting for a long time""",86
+"""frequent urinary tract infections"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,87
+"""Random muscle twitches all over the body"",","""More frequently"",","""Mild"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,88
+"""Hot flashes and night sweats"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,89
+"""Knee pain"",","""Months"",","""Moderate"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Going upstairs""",90
+"""Hair loss, thinning hair on top of head"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,91
+"""Forgetting small things"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,92
+"""Joint aches, especially in the morning"",","""all the time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,93
+"""Sudden, sharp chest pains"",","""A few seconds"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Randomly""",94
+"""Extremely thirsty, frequent urination, tingling in hands and feet"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,95
+"""Persistent sore on tongue"",","""Weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,96
+"""bloating, constipation, stomach cramps"",","""months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,97
+"""Blurry vision at night, difficulty seeing in dim light"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Nighttime, dim light""",98
+"""Fingers turn white and numb when cold"",","""Long time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Cold""",99
+"""heart palpitations, feeling like heart skips a beat"",","""randomly throughout the day"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,100
+"""Irregular periods, acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,101
+"""Feeling like I have to clear my throat all the time, feeling like something is stuck in my throat"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,102
+"""migraines"",","""frequent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""bright lights""",103
+"""Swelling in lower legs"",","""By the end of the day, goes away overnight"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""End of the day""",104
+"""Extreme tiredness, difficulty focusing, hair thinning"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,105
+"""Balance issues, feeling like falling"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,106
+"""Bruising easily"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,107
+"""Bleeding gums"",","""Every time brushing"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Brushing teeth""",108
+"""Trouble sleeping, waking up feeling exhausted"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" Hours per day: Unknown, Quality of sleep: Poor"",",""" """,109
+"""Lower back pain, pain spreading down the leg"",",""" "",","""Worsening"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,110
+"""Stiff hands in the morning"",","""It takes a while for them to loosen up"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,111
+"""Feeling full quickly when eating, stomach pain after meals"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Meals""",112
+"""Anxiety, racing heart"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,113
+"""Spinning sensation, even when sitting still"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,114
+"""Frequent nosebleeds, dry nose"",","""All the time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Weather""",115
+"""Erectile dysfunction"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,116
+"""Chapped lips"",","""Always"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,117
+"""sharp pain in my heel"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""walking in the morning""",118
+"""Dry skin"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,119
+"""pain in lower back"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""waking up""",120
+"""Nail ridges, easily break"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,121
+"""Constant ringing in ears"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,122
+"""Temperature dropped, cyanosis, weakness"",",""" "",",""" "",","""Family history of diabetes"",","""Recent surgery"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Surgery""",123
+"""Dizziness"",","""A few days"",",""" "",","""Surgery"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Waking up in the morning""",124
+"""sharp pain in my shoulder"",","""about a year"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, tennis"",",""" "",",""" "",","""tennis""",125
+"""Twinge in lower back"",","""A week"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Leaning over""",126
+"""Hair falling out in bunches"",","""Two weeks"",",""" "",","""Diabetes runs in my family"",",""" "",","""Yes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress-related (possible)""",127
+"""Inflammation, looks infected"",","""Two weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Accidental nick with an old razor""",128
+"""Shoulder pain"",","""About two weeks"",",""" "",","""Illness, family history of heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Housework""",129
+"""Lower back muscle aches"",","""A month"",",""" "",","""Hypertension"",","""Surgery"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,130
+"""heart is on fire"",","""a year"",","""getting worse"",","""recovered from an illness"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,131
+"""Horrible feeling in my stomach"",","""Several months"",",""" "",","""Asthma (family history)"",","""Surgery (recently)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,132
+"""sharp pain in my stomach every time I eat"",","""a month"",",""" "",","""illness, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""eating""",133
+"""Headache"",","""1 day"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Certain activities""",134
+"""Painful neck, difficulty moving neck"",","""Started a month ago"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,135
+"""blurry vision"",","""several months"",",""" "",","""hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,136
+"""Knee pain"",","""A week"",","""Unbearable"",","""Surgery, Family history of asthma"",","""Surgery (Unspecified year)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,137
+"""Blurry vision, feeling like a cloud over eyes"",",""" "",",""" "",","""Heart disease (family history)"",",""" "",","""Yes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,138
+"""Itchy ears"",","""A year"",",""" "",","""Allergies, asthma (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,139
+"""Sprained ankle, swollen, painful"",","""Yesterday"",","""Severe"",","""No prior history of injuries"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, playing basketball"",",""" "",",""" "",","""Playing basketball""",140
+"""Sharp pain in chest"",","""Several months"",",""" "",","""Family history of hypertension"",",""" "",","""Yes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Thinking of parents""",141
+"""Severe foot pain"",","""Two weeks"",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, once"",",""" "",",""" "",","""Walking 3 km""",142
+"""Persistent cough"",","""Three weeks"",",""" "",","""Asthma, history of heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,143
+"""joint stiffness"",","""two months"",",""" "",","""mother had arthritis"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""morning""",144
+"""dull pain in lower abdomen"",","""about a year"",",""" "",","""diabetes (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""eating spicy food""",145
+"""red, itchy patches"",","""three weeks"",",""" "",","""eczema"",",""" "",","""allergies"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,146
+"""forgetting recent conversations"",","""last six months"",","""worse"",","""no prior medical issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,147
+"""heart palpitations"",","""a month ago"",",""" "",","""hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,148
+"""Right wrist pain"",","""Two weeks"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Typing, long hours on computer""",149
+"""Extreme tiredness"",","""Three months"",",""" "",","""Diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,150
+"""ringing sound in my ears"",","""four months"",",""" "",","""no history of hearing problems"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,151
+"""Numbness in fingers"",","""Two years"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Mornings""",152
+"""Eyes hurt when looking at bright lights"",","""Three weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Bright lights""",153
+"""Ankles swelling"",","""A year"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Evenings""",154
+"""Dry throat"",","""Two months"",",""" "",","""No medical conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,155
+"""sharp pain in my lower back when I bend forward"",","""three months"",",""" "",","""osteoporosis in my family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""bend forward""",156
+"""leg cramps"",","""a month"",",""" "",","""diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,157
+"""Weakness in left arm"",","""Six months"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,158
+"""Chest tightness"",","""Started a year ago"",",""" "",","""Asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, with triggering factor"",",""" "",",""" "",","""Exercise""",159
+"""Trouble swallowing solid foods"",","""Three years"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,160
+"""sharp headaches on one side of my head"",","""four months"",",""" "",","""no history of migraines"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,161
+"""Knee popping when walking up stairs"",","""Two weeks"",",""" "",","""Minor injury years ago"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Walking up stairs""",162
+"""Cold feet"",","""Three months"",",""" "",","""Diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,163
+"""Bloated stomach"",","""Two years"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,164
+"""Hands shake slightly when holding objects"",","""A month"",",""" "",","""No medical conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,165
+"""Numbness in left foot"",","""Four months"",",""" "",","""Back problems"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sitting for too long""",166
+"""Bitter taste in mouth"",","""Two weeks"",",""" "",","""Diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,167
+"""Balance issues, stumbling"",","""Five months"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,168
+"""itchy rash"",","""last year"",",""" "",","""allergies"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""summer, sun""",169
+"""Heavy chest"",","""Six weeks"",",""" "",","""Anxiety"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress""",170
+"""Hearing loss"",","""Three years"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,171
+"""Blurred vision"",","""Three months"",",""" "",","""Low blood pressure"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up""",172
+"""tingling in hands and feet"",","""a year"",",""" "",","""diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,173
+"""Headaches"",","""Three weeks"",",""" "",","""No known conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,174
+"""Heart skips a beat"",","""Six months"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,175
+"""Jaw popping when chewing"",","""A month"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,176
+"""Pain in lower right abdomen"",","""A year"",",""" "",","""Acid reflux"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""After meals""",177
+"""Fingers turn white in the cold"",","""Three months"",",""" "",","""No known conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Cold""",178
+"""Dizziness when standing up quickly"",","""Two years"",",""" "",","""Low blood pressure"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up quickly""",179
+"""Back pain"",","""Four weeks"",",""" "",","""Arthritis"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Morning (pain improves throughout the day)""",180
+"""Thick and discolored toenails"",","""Six months"",",""" "",","""Diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,181
+"""Ears feel full, like they’re blocked"",","""A month"",",""" "",","""Allergies"",",""" "",","""Yes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,182
+"""night sweats"",","""two years"",",""" "",","""no medical conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,183
+"""Numbness in hands"",","""Three months"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sleeping on side""",184
+"""Bloating"",","""One year"",",""" "",","""Acid reflux"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Small meals""",185
+"""Hoarse voice"",","""Four months"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,186
+"""Gums bleed when brushing teeth"",","""Two months"",",""" "",","""No prior issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Brushing teeth""",187
+"""Lower back pain"",","""Six months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sitting for too long""",188
+"""Foggy memory"",","""Five years"",",""" "",","""Diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,189
+"""hives"",","""three weeks"",",""" "",",""" "",",""" "",","""shellfish"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""eating shellfish""",190
+"""My right shoulder clicks when I move it"",","""two months"",",""" "",","""past injury"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,191
+"""Feeling extremely cold all the time"",","""Four years"",",""" "",","""Hypothyroidism"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,192
+"""Double vision when focusing on small text"",","""Three months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Focusing on small text""",193
+"""Dry skin"",","""Two months"",",""" "",","""Eczema"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,194
+"""sharp pain in left foot when walking"",","""a year"",",""" "",","""no known conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""walking""",195
+"""Fingers cramping when writing"",","""A month"",",""" "",","""Arthritis"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Writing for too long""",196
+"""Shaking in left hand"",","""Two years"",","""Mild"",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Tiredness""",197
+"""Itching legs"",","""Three months"",","""Badly"",","""No skin conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Showers""",198
+"""Swelling in lower legs"",","""Six months"",",""" "",","""Hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Evening""",199
+"""Heart races when standing up"",","""Five months"",",""" "",","""No known conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up""",200
+"""balance has worsened"",","""four years"",",""" "",","""no prior medical issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,201
+"""Fingers are stiff in the mornings"",","""Three months"",",""" "",","""No arthritis history"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,202
+"""pressure behind my eyes"",","""eight months"",",""" "",","""no prior eye conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,203
+"""Cough"",","""Three years"",",""" "",","""Acid reflux"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Spicy foods""",204
+"""Left ear pain when chewing"",","""Five months"",",""" "",","""No ear problems"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Chewing""",205
+"""Skin irritation"",","""Two months"",",""" "",",""" "",",""" "",","""Textile allergy (possible)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Certain fabrics""",206
+"""Ankle pain"",","""A year"",",""" "",","""No prior injuries"",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, when running"",",""" "",",""" "",","""Running""",207
+"""Stomach making loud noises"",","""Three months"",",""" "",","""No conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,208
+"""Trembling in left hand when resting"",","""Five years"",",""" "",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,209
+"""Itchy scalp, dandruff"",","""Four weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,210
+"""Dry throat"",","""Three months"",",""" "",",""" "",",""" "",","""No allergies"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,211
+"""Jaw stiffness, teeth grinding"",","""Two years"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,212
+"""Left knee clicks when bending"",","""A year"",",""" "",","""Minor injury"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Bending""",213
+"""Skin bruises easily"",","""Six months"",",""" "",","""No known conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,214
+"""Hands shake when holding small objects"",","""Two years"",",""" "",","""No neurological history"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,215
+"""Lower stomach pain"",","""Three weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Before period""",216
+"""Blurry vision at night"",","""Four months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Night""",217
+"""Weakness in hands when gripping things"",","""A year"",",""" "",","""No prior conditions"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,218
+"""cold feet"",","""five months"",",""" "",","""diabetes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,219
+"""Numbness in the tongue"",","""Two months"",",""" "",",""" "",",""" "",","""No known allergies"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Spicy food""",220
+"""Back pain on one side"",","""Three months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Waking up, soft mattress""",221
+"""Right shoulder locks up when lifting heavy objects"",","""A year"",",""" "",","""No prior injuries"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Lifting heavy objects""",222
+""" "",",""" "",",""" "",","""Diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""infection or illness""",223
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",224
+""" "",",""" "",",""" "",","""High blood pressure (both parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Specific conditions""",225
+""" "",",""" "",",""" "",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",226
+"""persistent without improvement"",",""" "",",""" "",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,227
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",228
+"""persistent"",","""without improvement"",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,229
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Specific conditions""",230
+""" "",",""" "",",""" "",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",231
+"""persistent without improvement"",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,232
+""" "",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",233
+"""persistent"",",""" "",",""" "",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,234
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Began suddenly after an activity.""",235
+""" "",",""" "",","""Mild, worse over time"",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,236
+"""persistent"",","""without improvement"",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,237
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Began suddenly after an activity.""",238
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",239
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Activity""",240
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions.""",241
+""" "",",""" "",",""" "",","""High blood pressure (both parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Activity""",242
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",243
+""" "",","""persistent"",","""without improvement"",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,244
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",245
+""" "",","""over time"",","""Mild, worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,246
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",247
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions.""",248
+"""persistent without improvement"",",""" "",",""" "",","""high blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,249
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Began suddenly after an activity""",250
+"""Has been intermittent"",",""" "",",""" "",","""Genetic predisposition to heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,251
+""" "",","""over time"",","""Mild, worse"",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,252
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",253
+""" "",","""intermittent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,254
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Infection or illness""",255
+"""Started after an infection or illness"",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,256
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",257
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Infection or illness""",258
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Activity""",259
+"""Started after an infection or illness"",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,260
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions""",261
+"""Started after an infection or illness"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,262
+"""Has been intermittent with occasional relief"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,263
+"""persistent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,264
+"""persistent"",","""without improvement"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,265
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Began suddenly after an activity.""",266
+""" "",","""Has been intermittent"",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,267
+""" "",","""over time"",","""Mild, worse"",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,268
+""" "",",""" "",","""Mild"",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,269
+""" "",","""persistent without improvement"",",""" "",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,270
+""" "",","""over time"",","""Mild, worse"",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,271
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",272
+""" "",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,273
+"""Has been persistent without improvement"",",""" "",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,274
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",275
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions.""",276
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Infection or illness""",277
+"""Appears seasonally or during specific conditions."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",278
+""" "",","""persistent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,279
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",280
+"""Started after an infection or illness"",",""" "",",""" "",","""Genetic predisposition to heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,281
+""" "",","""over time"",","""Mild"",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,282
+""" "",","""persistent"",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,283
+""" "",","""over time"",","""Mild; worse"",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,284
+"""persistent"",",""" "",",""" "",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,285
+"""Appears seasonally or during specific conditions"",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""specific conditions""",286
+""" "",","""intermittent"",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,287
+"""persistent without improvement"",",""" "",",""" "",","""high blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,288
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity.""",289
+""" "",","""over time"",","""Mild, worse"",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,290
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Started after an infection or illness.""",291
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,292
+""" "",",""" "",",""" "",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",293
+"""persistent without improvement"",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,294
+"""Appears seasonally or during specific conditions"",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""specific conditions""",295
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,296
+"""persistent without improvement"",",""" "",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,297
+"""Appears seasonally or during specific conditions"",",""" "",",""" "",","""High blood pressure (both parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""specific conditions""",298
+""" "",","""intermittent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,299
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,300
+""" "",","""over time"",","""worse"",","""heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,301
+"""Has been persistent without improvement"",",""" "",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,302
+""" "",",""" "",","""Mild, worse over time"",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,303
+""" "",","""intermittent"",",""" "",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,304
+"""persistent without improvement"",",""" "",",""" "",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,305
+""" "",","""over time"",","""Mild"",","""History of cancer in the family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,306
+""" "",",""" "",",""" "",","""History of cancer in the family."",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Started after an infection or illness.""",307
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Seasonally or during specific conditions""",308
+""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions.""",309
+"""Appears seasonally or during specific conditions"",",""" "",",""" "",","""diabetes and hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""seasonally or during specific conditions""",310
+""" "",","""over time"",","""Mild"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,311
+""" "",",""" "",",""" "",","""Genetic predisposition to heart disease"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Started after an infection or illness""",312
+"""intermittent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,313
+""" "",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Appears seasonally or during specific conditions""",314
+""" "",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",315
+""" "",",""" "",",""" "",","""High blood pressure (parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,316
+""" "",","""over time"",","""Mild"",","""High blood pressure (in both parents)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,317
+""" "",","""intermittent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,318
+"""persistent"",","""without improvement"",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,319
+""" "",",""" "",",""" "",","""diabetes, hypertension"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""activity""",320
+"""Started after an infection or illness"",",""" "",",""" "",","""Mother had arthritis, father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,321
+""" "",","""Has been intermittent"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,322
+"""Fatigue and muscle pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,323
+"""fever and cough"",",""" "",","""Mild"",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,324
+"""fever and cough"",",""" "",","""Mild"",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,325
+"""Mild fever and cough"",",""" "",","""Mild"",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,326
+"""Sudden high fever"",",""" "",",""" "",","""chronic health issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,327
+"""Unexplained weight loss"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,328
+"""Unexplained weight loss"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,329
+"""Shortness of breath"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,330
+"""Frequent urination and thirst"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,331
+"""Stomach pain and nausea"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,332
+"""Frequent urination and thirst"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,333
+"""Unexplained weight loss"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,334
+"""Stomach pain and nausea"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,335
+"""Persistent sore throat"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,336
+"""Persistent sore throat"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,337
+"""Sudden high fever"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,338
+"""Frequent urination and thirst"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,339
+"""Mild fever and cough"",",""" "",","""Mild"",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,340
+"""Blurred vision, dizziness"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,341
+"""Stomach pain and nausea"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,342
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,343
+"""Intermittent chest pain"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,344
+"""Frequent urination and thirst"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,345
+"""Intermittent chest pain"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,346
+"""Mild fever and cough"",",""" "",","""Mild"",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,347
+"""Mild fever and cough"",",""" "",","""Mild"",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,348
+"""Frequent urination and thirst"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,349
+"""Frequent urination and thirst"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,350
+"""Unexplained weight loss"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,351
+"""Blurred vision, Dizziness"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,352
+"""Fatigue and muscle pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,353
+"""Shortness of breath"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,354
+"""Sudden high fever"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,355
+"""Intermittent chest pain"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,356
+"""Intermittent chest pain"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,357
+"""Blurred vision and dizziness"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,358
+"""Skin rash and itching"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,359
+"""fever, cough"",",""" "",","""Mild"",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,360
+"""Persistent sore throat"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,361
+"""Stomach pain and nausea"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,362
+"""Sudden high fever"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,363
+"""Blurred vision and dizziness"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,364
+"""fever, cough"",",""" "",","""Mild"",","""chronic health issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,365
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,366
+"""Frequent urination and thirst"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,367
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,368
+"""Unexplained weight loss"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,369
+"""Sudden high fever"",",""" "",",""" "",","""No known hereditary diseases"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,370
+"""Unexplained weight loss"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,371
+"""Shortness of breath"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,372
+"""Persistent sore throat"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,373
+"""fever and cough"",",""" "",","""Mild"",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,374
+"""Unexplained weight loss"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,375
+"""Blurred vision and dizziness"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,376
+"""Intermittent chest pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,377
+"""Unexplained weight loss"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,378
+"""Unexplained weight loss"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,379
+"""Skin rash and itching"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,380
+"""fever, cough"",",""" "",","""Mild"",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,381
+"""Unexplained weight loss"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,382
+"""Intermittent chest pain"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,383
+"""Fatigue and muscle pain"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,384
+"""Intermittent chest pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,385
+"""Skin rash and itching"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,386
+"""Unexplained weight loss"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,387
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,388
+"""Mild fever and cough"",",""" "",","""Mild"",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,389
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,390
+"""Fatigue and muscle pain"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,391
+"""Fatigue and muscle pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,392
+"""Unexplained weight loss"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,393
+"""Frequent urination and thirst"",",""" "",",""" "",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,394
+"""Stomach pain and nausea"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,395
+"""Fatigue and muscle pain"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,396
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,397
+"""Intermittent chest pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,398
+"""Severe headache and dizziness"",",""" "",","""Severe"",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,399
+"""Skin rash and itching"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,400
+"""Blurred vision and dizziness"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,401
+"""Stomach pain and nausea"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,402
+"""Stomach pain and nausea"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,403
+"""Mild fever and cough"",",""" "",","""Mild"",","""Hypertension in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,404
+"""Stomach pain and nausea"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,405
+"""Stomach pain and nausea"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,406
+"""Persistent sore throat"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,407
+"""Unexplained weight loss"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,408
+"""Intermittent chest pain"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,409
+"""Sudden high fever"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,410
+"""Persistent sore throat"",",""" "",",""" "",","""Cancer history in grandparents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,411
+"""Persistent sore throat"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,412
+"""Mild fever and cough"",",""" "",","""Mild"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,413
+"""fever and cough"",",""" "",","""Mild"",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,414
+"""Stomach pain and nausea"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,415
+"""Unexplained weight loss"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,416
+"""Unexplained weight loss"",",""" "",",""" "",","""Heart disease in father"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,417
+"""Frequent urination and thirst"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,418
+"""Frequent urination and thirst"",",""" "",",""" "",","""Arthritis in family"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,419
+"""Shortness of breath"",",""" "",",""" "",","""Diabetes in parents"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,420
+"""Unexplained weight loss"",",""" "",",""" "",","""Asthma in siblings"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,421
+"""Unexplained weight loss"",",""" "",",""" "",","""Thyroid issues in mother"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,422
+"""sharp pain, clicking sound, swelling, bruising"",","""a week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, used to be active"",",""" "",",""" "",","""twisting ankle while hiking""",423
+"""shoulder pain"",","""1 day"",","""severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""lifting arm, carrying heavy bag""",424
+"""Headache, lightheadedness"",","""Last week"",",""" "",","""Migraines"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up too quickly""",425
+"""Knee pain, bone-on-bone pain when climbing stairs"",","""A few years, worse lately"",","""Severe"",","""Knee problems"",",""" "",",""" "",",""" "",",""" "",",""" "",","""No (used to be a runner)"",",""" "",",""" "",","""Walking, climbing stairs""",426
+"""Breaking out on cheeks and forehead, oily skin"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Cycle""",427
+"""shoulder pain"",","""constant since yesterday"",",""" "",","""back problems"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""lifting heavy boxes at work""",428
+"""Strange and powerful pain inside rib cage when breathing deeply, difficulty taking deep breaths"",","""A couple of days"",",""" "",","""Asthma since childhood"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Coughing, breathing in deeply""",429
+"""Weakness and fatigue"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Enough sleep, but still fatigued."",","""Stress (possibly)""",430
+"""Hair loss in clumps"",","""About a month"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Non-Vegetarian (implied by eating junk food)"",",""" "",","""Stress with school; Eating a lot of junk food""",431
+"""Stiff neck, pain with head movement"",","""Since this morning"",",""" "",","""Neck issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,432
+"""Tiredness, difficulty putting on clothes"",","""About a month"",",""" "",","""Anemia"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress (possible)""",433
+"""weakness, dizziness"",","""a week"",",""" "",","""high blood pressure"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""standing up too quickly""",434
+"""Acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Hot weather""",435
+"""Shortness of breath, coughing, feeling winded"",","""A few weeks"",",""" "",","""Pneumonia"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Walking short distances""",436
+"""Rash, itching"",","""A few days"",","""Worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Sensitive skin (possible cause)""",437
+"""Internal pain in stomach"",","""A couple of weeks"",",""" "",","""Heartburn"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Spicy food""",438
+"""Open wound on arm, red, swollen, oozing"",","""A few days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",439
+"""Deep tingling in feet, strange sensation when touching acne"",",""" "",","""Uncomfortable"",","""Nerve issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,440
+"""Always feeling cold"",","""About a month"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,441
+"""Dizziness, headache, blurry vision"",","""Since last night"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, playing soccer"",",""" "",",""" "",","""Kicked in the head while playing soccer""",442
+"""bone-on-bone pain in knees when climbing stairs"",","""a few months"",",""" "",","""Overweight for years"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""climbing stairs""",443
+"""Sharp pain in stomach, burning sensation, heartburn"",","""Comes and goes"",","""More intense"",","""Heartburn"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Eating lunch""",444
+"""Knee pain"",","""Six months"",","""Severe"",","""None"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Walking""",445
+"""sharp pain in my chest"",","""about two days"",",""" "",","""asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""cough or sneeze, taking a breath""",446
+"""Neck soreness, difficulty moving neck, especially when looking over shoulder"",","""Since last week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Accident last week""",447
+"""Cramping, bloated sensation in stomach"",","""Started last week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Period""",448
+"""Tiredness, lack of energy"",","""A few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress (possible)""",449
+"""Hair loss"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress""",450
+"""strange and powerful pain inside my rib cage"",","""comes and goes"",","""especially bad when I take a deep breath"",","""I don’t have a history of chest problems"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""deep breath""",451
+"""Feeling cold all the time, shivering, fatigue"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,452
+"""weakness, dizziness"",","""a couple of weeks"",",""" "",","""heart problems (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""standing up too quickly""",453
+"""Painful cramps in feet, especially at night"",",""" "",","""Uncomfortable"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" Wakes up from sleep"",","""Possible dehydration""",454
+"""Pain in muscle"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, lately going to the gym"",",""" "",",""" "",","""Making an extra effort""",455
+"""Burning sensation in stomach"",","""Last week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Two hours after every meal; possibly certain foods""",456
+"""Stiff neck"",","""Months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,457
+"""Feeling cold, tiredness"",","""Last few days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,458
+"""sharp pain and clicking sound in my ankle joint, difficulty walking without limping"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""twisting ankle while running, standing on the ankle""",459
+"""Mucus when coughing, shortness of breath"",","""Last week"",","""Slightly short of breath"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Allergies or something else""",460
+"""Fatigue, muscle soreness"",","""Days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Working out (possible)""",461
+"""Acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Menstruation""",462
+"""light-headedness, dizziness"",","""more frequently recently"",",""" "",","""heart disease (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""getting up quickly""",463
+"""Blurry vision, difficulty focusing"",",""" "",",""" "",",""" "",",""" "",",""" "",","""new medication"",",""" "",",""" "",",""" "",",""" "",",""" "",","""New medication""",464
+"""Sharp pain in stomach, stabbing sensation, bloating"",",""" "",",""" "",","""Digestive issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Eating""",465
+"""Extremely itchy skin, constant scratching"",","""Never had this before"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress or something else""",466
+"""Constant tightness in chest"",","""Most days"",","""Uncomfortable"",","""Heartburn"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,467
+"""Painful cramps in feet"",",""" "",","""Severe"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Night""",468
+"""Weakness, dizziness, lightheadedness"",","""A few weeks"",","""Getting worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up, bending over""",469
+"""Open wound on arm, red, swollen"",","""about a week"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,470
+"""sharp pain in my ankle, clicking sound"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""putting weight on it""",471
+"""joint pain in knees"",","""months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""climbing stairs or walking long distances""",472
+"""Itchy scalp, patches of dryness on head"",","""Lately"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,473
+"""Dizziness, lightheadedness, weakness"",",""" "",",""" "",","""High blood pressure"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up too quickly""",474
+"""tightness in chest"",",""" "",",""" "",","""asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""stress""",475
+"""Sharp pain in stomach, pressure building up"",","""Every time I eat"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Eating""",476
+"""Hair falling out in large clumps"",","""couple of weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""brushing hair""",477
+"""Fatigue, weakness, lack of energy"",","""A few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,478
+"""Painful cramps in feet, muscle tightening"",","""Last few months"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,479
+"""Pain in lower back"",","""Ever since the lifting incident"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Lifting something heavy, bending or twisting""",480
+"""Breakouts on chin and jawline"",","""Every month around cycle"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Menstrual cycle""",481
+"""Weakness, dizziness"",",""" "",",""" "",","""Heart condition"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Getting up from sitting or lying down""",482
+"""Feeling cold all the time, fatigue"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,483
+"""pain and swelling in my knee"",","""a few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""bending it or stand for too long""",484
+"""Stiff neck"",","""For a while now"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" , it doesn’t seem to go away."",","""Sleeping (no matter how)""",485
+"""rash, itchiness"",","""about a week"",","""worse"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,486
+"""Weakness, dizziness, nausea"",","""past few days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""medication (possible)""",487
+"""Muscle pain"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, workouts"",",""" "",",""" "",","""Extra physical activity""",488
+"""Lightheadedness when standing up quickly, chest discomfort"",","""Getting worse (implied)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Standing up quickly""",489
+"""Feeling cold, trouble sleeping, waking up tired"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" Hours per day: , Quality of sleep: Trouble sleeping"",",""" """,490
+"""pain in arm/shoulder"",","""about a week"",","""sharp"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""stretching arm out""",491
+"""Knee pain"",",""" "",","""Dull, constant ache that gets worse with activity"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Walking, climbing stairs, prolonged standing""",492
+"""dizzy and lightheaded when I stand up quickly"",","""over the last few weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""when I stand up quickly""",493
+"""sharp pain in my rib cage when I breathe in deeply"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""breathe in deeply""",494
+"""Cut on finger, red, swollen"",","""days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,495
+"""Trouble breathing, tightness in chest, feeling like not getting enough air"",",""" "",",""" "",","""Asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,496
+"""Acne"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Hot months""",497
+"""Pain in knees and muscles"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Yes, trying to exercise more"",",""" "",",""" "",","""Overexertion""",498
+"""Fatigue, weakness, tiredness"",","""All the time"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" , quality of sleep not specified"",",""" """,499
+"""pain and stiffness in my neck"",","""weeks"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,500
+"""Cut on lip, swelling, pain"",","""A few days"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,501
+"""dizzy, weak"",","""several days"",","""getting worse"",","""high blood pressure"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,502
+"""Stressed, acne"",","""a while"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress""",503
+"""tired and weak"",","""lately"",",""" "",","""thyroid problems (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""enough, but still tired"",",""" """,504
+"""pressure in my chest"",",""" "",",""" "",","""heart attack"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""after meals""",505
+"""severe headaches, almost like migraines"",","""past month"",","""Severe"",","""migraines (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,506
+"""dizzy and lightheaded"",","""past few weeks"",",""" "",","""vertigo (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,507
+"""itchy rashes"",","""weeks"",",""" "",","""eczema (in grandmother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,508
+"""Fatigue and breathlessness"",",""" "",",""" "",","""Chronic lung disease (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Light exertion""",509
+"""lower back pain"",","""past few months"",",""" "",","""back issues (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,510
+"""heartburn and indigestion"",","""after every meal"",",""" "",","""acid reflux (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""meals""",511
+"""headaches, lightheadedness"",",""" "",",""" "",","""high blood pressure (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,512
+"""Numbness and tingling in legs and arms"",",""" "",",""" "",","""Mother had a stroke"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,513
+"""painful periods, cramps"",","""last year"",",""" "",","""endometriosis (aunt)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,514
+"""Shortness of breath"",","""Few weeks"",",""" "",","""Chronic obstructive pulmonary disease (COPD)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,515
+"""severe abdominal pain"",",""" "",","""Severe"",","""gallstones (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""eating""",516
+"""joint pain in knees and hands"",",""" "",",""" "",","""arthritis (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,517
+"""hot flashes, night sweats, sleep disturbance"",",""" "",",""" "",","""Mother experienced early menopause"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,518
+"""Trouble focusing, feeling unusually anxious"",",""" "",",""" "",","""Anxiety disorder (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,519
+"""fatigue, trouble sleeping"",",""" "",",""" "",","""Sleep apnea (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,520
+"""frequent infections, colds, sore throats"",",""" "",",""" "",","""weakened immune system (grandmother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,521
+"""heart is racing even when I’m at rest"",",""" "",",""" "",","""atrial fibrillation"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,522
+"""mood swings, fatigue"",",""" "",","""Severe"",","""depression (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,523
+"""cough, feeling of tightness in chest"",",""" "",",""" "",","""brother had pneumonia a few years ago"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,524
+"""Feeling constantly stressed, skin issues"",",""" "",",""" "",","""Psoriasis (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Stress""",525
+"""dizzy, unsteady on my feet"",",""" "",",""" "",","""vertigo (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,526
+"""Digestion trouble"",",""" "",",""" "",","""Father had IBS"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,527
+"""constant pain in my back and neck"",","""long periods"",",""" "",","""herniated disc"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""sitting for long periods""",528
+"""pressure in my chest"",",""" "",",""" "",","""gallbladder issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""eating""",529
+"""sharp pain in my chest"",","""comes and goes"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,530
+"""extreme fatigue, weight gain"",",""" "",",""" "",","""thyroid condition (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,531
+"""Tightness in chest, shortness of breath"",",""" "",",""" "",","""Father had asthma"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,532
+"""headaches"",","""frequent, getting worse"",",""" "",","""Migraines (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,533
+"""pain and swelling in hands"",",""" "",",""" "",","""arthritis (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""mornings""",534
+"""Bloating, frequent stomach cramps"",",""" "",",""" "",","""Father had a history of digestive issues"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,535
+"""pain and swelling in legs"",",""" "",",""" "",","""varicose veins (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,536
+"""Frequent urination, feeling tired all the time"",",""" "",",""" "",","""Diabetes (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,537
+"""Pain and discomfort in abdomen, especially after meals"",",""" "",",""" "",","""History of gallstones (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",","""Meals""",538
+"""Tiredness, lack of motivation"",","""Increasingly (implied)"",",""" "",","""Depression (family history - sister)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,539
+"""sharp, shooting pains in my legs"",",""" "",",""" "",","""sciatica"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,540
+"""Low energy, difficulty concentrating"",",""" "",",""" "",","""ADHD (mother)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,541
+"""short of breath, coughing"",","""lately"",",""" "",","""emphysema (father)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,542
+"""Pain in lower back and legs"",","""past few months"",",""" "",","""Mother had sciatica"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,543
+"""Fatigue, unmotivated"",",""" "",",""" "",","""Depression (family history)"",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" "",",""" """,544
